@@ -15,7 +15,6 @@ public class Banheiro extends Thread {
         filaMulher = 0;  
         this.sexo = sexo;  
     }  
-     int teste;
       
     public synchronized void filaBanheiro(int sexo) {  
           
